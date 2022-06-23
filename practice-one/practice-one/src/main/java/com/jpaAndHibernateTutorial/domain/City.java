@@ -1,3 +1,4 @@
+/*
 package com.jpaAndHibernateTutorial.domain;
 
 import javax.persistence.*;
@@ -17,24 +18,32 @@ public class City {
     private List<Address> addressList;
 
     // To establish a two-way relationship between two entities, we use (@OneToMany Or ...) annotation for each of them.
-    /* This code is for entity Address :
+    */
+/* This code is for entity Address :
     @ManyToOne
-    private City city;*/
+    private City city;*//*
 
-    /*@OneToMany(mappedBy = "city")
-    private List<Address> addressList;*/
+
+ */
+/*@OneToMany(mappedBy = "city")
+    private List<Address> addressList;*//*
+
     // To establish a two-way relationship between two entities, we use (@OneToMany Or ...) annotation for each of them.
 
     // Use annotation (@JoinColumn) for add city_id to addressList
     // In this case, there is no need to define the relationship in the entity of the address between the address and the city
-    /*@OneToMany
+    */
+/*@OneToMany
     @JoinColumn(name = "city_id")
-    private List<Address> addressList;*/
+    private List<Address> addressList;*//*
+
 
     // To create an interface table between two entities, we use the following method in only one entity
     // In this case, there is no need to define the relationship in the entity of the address between the address and the city
-    /*@OneToMany
-    private List<Address> addressList;*/
+    */
+/*@OneToMany
+    private List<Address> addressList;*//*
+
 
     public City() {
     }
@@ -63,3 +72,4 @@ public class City {
         this.addressList = addressList;
     }
 }
+*/

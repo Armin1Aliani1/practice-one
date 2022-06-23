@@ -1,3 +1,4 @@
+/*
 package com.jpaAndHibernateTutorial.domain;
 
 import javax.persistence.*;
@@ -43,3 +44,4 @@ public class Tag {
     }
 
 }
+*/

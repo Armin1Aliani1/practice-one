@@ -4,11 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1619e90-80d5-483e-8892-41a54f5d2cf5" name="Changes" comment="add persistence.xml" />
+    <list default="true" id="a1619e90-80d5-483e-8892-41a54f5d2cf5" name="Changes" comment="add files Address and City and HibernateUtil and JpaApplication and Tag and User and Wallet">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/base/domain/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/domain/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/domain/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/domain/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/domain/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/domain/Tag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/domain/Tag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/domain/User.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -16,12 +30,14 @@
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
         <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
         <entry key="com.haulmont.jpb.jpaPalette" value="false" />
         <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
@@ -41,7 +57,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Parmin/IdeaProjects/projectsOnGit/codeS25OrTwentyFiveJM/practice-one/practice-one/src/main/resources",
+    "last_opened_file_path": "C:/Users/Parmin/IdeaProjects/projectsOnGit/codeS25OrTwentyFiveJM/practice-one/practice-one/src/main/java",
     "project.structure.last.edited": "Facets",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -57,6 +73,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Parmin\IdeaProjects\projectsOnGit\codeS25OrTwentyFiveJM\practice-one\practice-one\src\main\java" />
       <recent name="C:\Users\Parmin\IdeaProjects\projectsOnGit\codeS25OrTwentyFiveJM\practice-one\practice-one" />
     </key>
   </component>
@@ -68,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655987801086</updated>
-      <workItem from="1655987802330" duration="791000" />
+      <workItem from="1655987802330" duration="6818000" />
     </task>
     <task id="LOCAL‎۰۰۰۰۱" summary="add all files">
       <created>1655987891224</created>
@@ -106,7 +123,19 @@
       <option name="presentableId" value="LOCAL‎۰۰۰۰۶" />
       <updated>1655988526213</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL‎۰۰۰۰۷" summary="edite file">
+      <created>1655988617824</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۷" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۷" />
+      <updated>1655988617824</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۰۸" summary="add files Address and City and HibernateUtil and JpaApplication and Tag and User and Wallet">
+      <created>1655988784355</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۸" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۸" />
+      <updated>1655988784355</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,7 +160,9 @@
     <MESSAGE value="edit pom" />
     <MESSAGE value="add all file" />
     <MESSAGE value="add persistence.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="add persistence.xml" />
+    <MESSAGE value="edite file" />
+    <MESSAGE value="add files Address and City and HibernateUtil and JpaApplication and Tag and User and Wallet" />
+    <option name="LAST_COMMIT_MESSAGE" value="add files Address and City and HibernateUtil and JpaApplication and Tag and User and Wallet" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
