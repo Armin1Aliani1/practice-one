@@ -1,8 +1,11 @@
 package com.jpaAndHibernateTutorial.domain;
 
-import javax.persistence.*;
-import java.util.HashSet;
-import java.util.Set;
+import com.jpaAndHibernateTutorial.base.domain.BaseEntity;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.OneToOne;
+import javax.persistence.Table;
 
 // Annotation (@Entity) is used to build the table in the database
  /*We use annotation(@Table) to define the name of the new table we want to create for the first time,
@@ -10,7 +13,7 @@ import java.util.Set;
 @Entity
 @Table(name = User.TABLE_NAME)
 //@Table(name = "user_table")
-public class User {
+public class User extends BaseEntity<Long> {
     // Annotation (@Id) is used to create the primary key in the table
     // We use annotation (@GeneratedValue) to generate id automatically
 
@@ -21,9 +24,9 @@ public class User {
     public static final String PASSWORD = "password";
     public static final String IS_ACTIVE = "is_active";
 
-    @Id
+    /*@Id
     @GeneratedValue
-    private Long id;
+    private Long id;*/
     // We use annotation (@Column(name = NAME_COLUMN,columnDefinition = "Data type")) for rename a column and custom data type a column
     @Column(name = FIRST_NAME)
     private String firstName;
@@ -43,8 +46,8 @@ public class User {
     @OneToOne
     private Wallet wallet;
 
-    @ManyToMany(mappedBy = "users")
-    private Set<Tag> tags = new HashSet<>();
+//    @ManyToMany(mappedBy = "users")
+//    private Set<Tag> tags = new HashSet<>();
 
     public User() {
     }
@@ -56,13 +59,13 @@ public class User {
         this.password = password;
     }
 
-    public Long getId() {
+    /*public Long getId() {
         return id;
     }
 
     public void setId(Long id) {
         this.id = id;
-    }
+    }*/
 
     public String getFirstName() {
         return firstName;
@@ -112,18 +115,18 @@ public class User {
         this.wallet = wallet;
     }
 
-    public Set<Tag> getTags() {
+    /*public Set<Tag> getTags() {
         return tags;
     }
 
     public void setTags(Set<Tag> tags) {
         this.tags = tags;
-    }
+    }*/
 
     @Override
     public String toString() {
         return "User{" +
-                "id=" + id +
+                "id=" + getId() +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", username='" + username + '\'' +
