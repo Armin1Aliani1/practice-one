@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1619e90-80d5-483e-8892-41a54f5d2cf5" name="Changes" comment="edit pom" />
+    <list default="true" id="a1619e90-80d5-483e-8892-41a54f5d2cf5" name="Changes" comment="add persistence.xml" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,12 +16,14 @@
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
-        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
   </component>
@@ -41,8 +43,13 @@
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/Parmin/IdeaProjects/projectsOnGit/codeS25OrTwentyFiveJM/practice-one/practice-one/src/main/resources",
     "project.structure.last.edited": "Facets",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RebelAgentSelection">
@@ -61,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655987801086</updated>
-      <workItem from="1655987802330" duration="475000" />
+      <workItem from="1655987802330" duration="791000" />
     </task>
     <task id="LOCAL‎۰۰۰۰۱" summary="add all files">
       <created>1655987891224</created>
@@ -87,7 +94,19 @@
       <option name="presentableId" value="LOCAL‎۰۰۰۰۴" />
       <updated>1655988196494</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL‎۰۰۰۰۵" summary="add all file">
+      <created>1655988503851</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۵" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۵" />
+      <updated>1655988503851</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۰۶" summary="add persistence.xml">
+      <created>1655988526213</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۶" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۶" />
+      <updated>1655988526213</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,7 +129,9 @@
     <MESSAGE value="add all files" />
     <MESSAGE value="add gitignore" />
     <MESSAGE value="edit pom" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit pom" />
+    <MESSAGE value="add all file" />
+    <MESSAGE value="add persistence.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="add persistence.xml" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
