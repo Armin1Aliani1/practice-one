@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1619e90-80d5-483e-8892-41a54f5d2cf5" name="Changes" comment="edit User">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a1619e90-80d5-483e-8892-41a54f5d2cf5" name="Changes" comment="edit workspace.xml">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/base/domain/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/base/domain/BaseEntity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655987801086</updated>
-      <workItem from="1655987802330" duration="10679000" />
+      <workItem from="1655987802330" duration="11015000" />
     </task>
     <task id="LOCAL‎۰۰۰۰۱" summary="add all files">
       <created>1655987891224</created>
@@ -148,7 +148,13 @@
       <option name="presentableId" value="LOCAL‎۰۰۰۱۱" />
       <updated>1656013757161</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL‎۰۰۰۱۲" summary="edit workspace.xml">
+      <created>1656123698899</created>
+      <option name="number" value="LOCAL‎۰۰۰۱۲" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۱۲" />
+      <updated>1656123698899</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,7 +184,8 @@
     <MESSAGE value="edit files" />
     <MESSAGE value="add BaseEntity" />
     <MESSAGE value="edit User" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit User" />
+    <MESSAGE value="edit workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit workspace.xml" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
