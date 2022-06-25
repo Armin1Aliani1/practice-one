@@ -24,9 +24,6 @@ public class User extends BaseEntity<Long> {
     public static final String PASSWORD = "password";
     public static final String IS_ACTIVE = "is_active";
 
-    /*@Id
-    @GeneratedValue
-    private Long id;*/
     // We use annotation (@Column(name = NAME_COLUMN,columnDefinition = "Data type")) for rename a column and custom data type a column
     @Column(name = FIRST_NAME)
     private String firstName;
@@ -58,14 +55,6 @@ public class User extends BaseEntity<Long> {
         this.username = username;
         this.password = password;
     }
-
-    /*public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }*/
 
     public String getFirstName() {
         return firstName;
@@ -114,14 +103,6 @@ public class User extends BaseEntity<Long> {
     public void setWallet(Wallet wallet) {
         this.wallet = wallet;
     }
-
-    /*public Set<Tag> getTags() {
-        return tags;
-    }
-
-    public void setTags(Set<Tag> tags) {
-        this.tags = tags;
-    }*/
 
     @Override
     public String toString() {
