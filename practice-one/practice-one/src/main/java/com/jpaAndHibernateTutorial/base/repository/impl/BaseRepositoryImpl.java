@@ -15,7 +15,7 @@ public abstract class BaseRepositoryImpl<E extends BaseEntity<ID>, ID extends Se
 
     protected final Class<E> entityClass;
 
-    protected BaseRepositoryImpl(EntityManager entityManager) {
+    public BaseRepositoryImpl(EntityManager entityManager) {
         this.entityManager = entityManager;
         this.entityClass = getEntityClass();
     }
