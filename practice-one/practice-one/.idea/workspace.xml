@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1619e90-80d5-483e-8892-41a54f5d2cf5" name="Changes" comment="add files Address and City and HibernateUtil and JpaApplication and Tag and User and Wallet">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/base/domain/BaseEntity.java" afterDir="false" />
+    <list default="true" id="a1619e90-80d5-483e-8892-41a54f5d2cf5" name="Changes" comment="edit User">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/domain/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/domain/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/domain/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/domain/City.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/domain/Tag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/domain/Tag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/domain/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655987801086</updated>
-      <workItem from="1655987802330" duration="6818000" />
+      <workItem from="1655987802330" duration="10679000" />
     </task>
     <task id="LOCAL‎۰۰۰۰۱" summary="add all files">
       <created>1655987891224</created>
@@ -135,7 +130,25 @@
       <option name="presentableId" value="LOCAL‎۰۰۰۰۸" />
       <updated>1655988784355</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL‎۰۰۰۰۹" summary="edit files">
+      <created>1656013709473</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۹" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۹" />
+      <updated>1656013709473</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۱۰" summary="add BaseEntity">
+      <created>1656013737432</created>
+      <option name="number" value="LOCAL‎۰۰۰۱۰" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۱۰" />
+      <updated>1656013737432</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۱۱" summary="edit User">
+      <created>1656013757161</created>
+      <option name="number" value="LOCAL‎۰۰۰۱۱" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۱۱" />
+      <updated>1656013757161</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +175,10 @@
     <MESSAGE value="add persistence.xml" />
     <MESSAGE value="edite file" />
     <MESSAGE value="add files Address and City and HibernateUtil and JpaApplication and Tag and User and Wallet" />
-    <option name="LAST_COMMIT_MESSAGE" value="add files Address and City and HibernateUtil and JpaApplication and Tag and User and Wallet" />
+    <MESSAGE value="edit files" />
+    <MESSAGE value="add BaseEntity" />
+    <MESSAGE value="edit User" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit User" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
