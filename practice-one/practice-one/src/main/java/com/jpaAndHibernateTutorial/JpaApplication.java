@@ -45,7 +45,7 @@ public class JpaApplication {
         transaction.begin();
         // transaction start
 
-        User user = new User("Armin", "Aliani", "ArminA", "123456789");
+        User user = new User("Armin", "Aliani", "ArminA", "123456789", true);
         // Is persist for save user
         entityManager.persist(user);
         // Is persist for save user
