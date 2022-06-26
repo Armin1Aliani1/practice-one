@@ -1,25 +1,36 @@
 package com.jpaAndHibernateTutorial;
 
 import com.jpaAndHibernateTutorial.domain.User;
-import com.jpaAndHibernateTutorial.util.HibernateUtil;
+import com.jpaAndHibernateTutorial.util.ApplicationContext;
 
 import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 import javax.persistence.TypedQuery;
 import java.util.List;
 
 public class JpaApplication {
     public static void main(String[] args) {
-        EntityManagerFactory entityManagerFactory = HibernateUtil.getEntityManagerFactory();
+
+        System.out.println(ApplicationContext.getUserRepository().findAll());
+//        User user = ApplicationContext.getUserRepository().findById(2L);
+        User user = new User();
+        user.setId(1L);
+        user.setFirstName("Armin");
+        user.setLastName("Aliani");
+        user.setUsername("ArminA");
+        user.setPassword("123456");
+        user.setActive(true);
+        ApplicationContext.getUserRepository().save(user);
+        System.out.println(ApplicationContext.getUserRepository().findAll());
+
+//        EntityManagerFactory entityManagerFactory = HibernateUtil.getEntityManagerFactory();
 
         // Build and get entityManager with entityManagerFactory
-        EntityManager entityManager = entityManagerFactory.createEntityManager();
+//        EntityManager entityManager = entityManagerFactory.createEntityManager();
         // Build and get entityManager with entityManagerFactory
 
 //        doFirstExample(entityManager);
 
-        System.out.println("end");
     }
 
     private static void doFirstExample(EntityManager entityManager) {
