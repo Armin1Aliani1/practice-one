@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1619e90-80d5-483e-8892-41a54f5d2cf5" name="Changes" comment="edit workspace.xml">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/base/domain/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/base/domain/BaseEntity.java" afterDir="false" />
+    <list default="true" id="a1619e90-80d5-483e-8892-41a54f5d2cf5" name="Changes" comment="edit UserRepositoryImpl and BaseRepositoryImpl">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/JpaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/JpaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/base/repository/impl/BaseRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/base/repository/impl/BaseRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -71,6 +75,29 @@
       <recent name="C:\Users\Parmin\IdeaProjects\projectsOnGit\codeS25OrTwentyFiveJM\practice-one\practice-one\src\main\java" />
       <recent name="C:\Users\Parmin\IdeaProjects\projectsOnGit\codeS25OrTwentyFiveJM\practice-one\practice-one" />
     </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.jpaAndHibernateTutorial.base.repository" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="JpaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jpaAndHibernateTutorial.JpaApplication" />
+      <module name="practice-one" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jpaAndHibernateTutorial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.JpaApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -80,7 +107,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655987801086</updated>
-      <workItem from="1655987802330" duration="11015000" />
+      <workItem from="1655987802330" duration="35368000" />
     </task>
     <task id="LOCAL‎۰۰۰۰۱" summary="add all files">
       <created>1655987891224</created>
@@ -154,7 +181,73 @@
       <option name="presentableId" value="LOCAL‎۰۰۰۱۲" />
       <updated>1656123698899</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL‎۰۰۰۱۳" summary="edit workspace.xml">
+      <created>1656124070149</created>
+      <option name="number" value="LOCAL‎۰۰۰۱۳" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۱۳" />
+      <updated>1656124070149</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۱۴" summary="edit BaseEntity">
+      <created>1656124093540</created>
+      <option name="number" value="LOCAL‎۰۰۰۱۴" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۱۴" />
+      <updated>1656124093540</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۱۵" summary="edit User">
+      <created>1656124362553</created>
+      <option name="number" value="LOCAL‎۰۰۰۱۵" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۱۵" />
+      <updated>1656124362553</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۱۶" summary="edit BaseEntity and User and Wallet">
+      <created>1656135381291</created>
+      <option name="number" value="LOCAL‎۰۰۰۱۶" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۱۶" />
+      <updated>1656135381291</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۱۷" summary="edit JpaApplication">
+      <created>1656169481487</created>
+      <option name="number" value="LOCAL‎۰۰۰۱۷" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۱۷" />
+      <updated>1656169481488</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۱۸" summary="add BaseRepository">
+      <created>1656177609803</created>
+      <option name="number" value="LOCAL‎۰۰۰۱۸" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۱۸" />
+      <updated>1656177609803</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۱۹" summary="add BaseRepositoryImpl">
+      <created>1656177630955</created>
+      <option name="number" value="LOCAL‎۰۰۰۱۹" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۱۹" />
+      <updated>1656177630955</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۲۰" summary="add interface UserRepository">
+      <created>1656187553309</created>
+      <option name="number" value="LOCAL‎۰۰۰۲۰" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۲۰" />
+      <updated>1656187553309</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۲۱" summary="add class UserRepositoryImpl">
+      <created>1656187589324</created>
+      <option name="number" value="LOCAL‎۰۰۰۲۱" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۲۱" />
+      <updated>1656187589324</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۲۲" summary="add ApplicationContext">
+      <created>1656189100736</created>
+      <option name="number" value="LOCAL‎۰۰۰۲۲" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۲۲" />
+      <updated>1656189100736</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۲۳" summary="edit UserRepositoryImpl and BaseRepositoryImpl">
+      <created>1656189145822</created>
+      <option name="number" value="LOCAL‎۰۰۰۲۳" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۲۳" />
+      <updated>1656189145822</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,9 +276,18 @@
     <MESSAGE value="add files Address and City and HibernateUtil and JpaApplication and Tag and User and Wallet" />
     <MESSAGE value="edit files" />
     <MESSAGE value="add BaseEntity" />
-    <MESSAGE value="edit User" />
     <MESSAGE value="edit workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit workspace.xml" />
+    <MESSAGE value="edit BaseEntity" />
+    <MESSAGE value="edit User" />
+    <MESSAGE value="edit BaseEntity and User and Wallet" />
+    <MESSAGE value="edit JpaApplication" />
+    <MESSAGE value="add BaseRepository" />
+    <MESSAGE value="add BaseRepositoryImpl" />
+    <MESSAGE value="add interface UserRepository" />
+    <MESSAGE value="add class UserRepositoryImpl" />
+    <MESSAGE value="add ApplicationContext" />
+    <MESSAGE value="edit UserRepositoryImpl and BaseRepositoryImpl" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit UserRepositoryImpl and BaseRepositoryImpl" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
