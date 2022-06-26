@@ -10,9 +10,9 @@ import javax.persistence.Table;
 @Table(name = Wallet.TABLE_NAME)
 public class Wallet extends BaseEntity<Long> {
     public static final String TABLE_NAME = "wallet";
-    private Long totalAmount;
-    private Long cashAmount;
-    private Long creditAmount;
+    private Long totalAmount = 0L;
+    private Long cashAmount = 0L;
+    private Long creditAmount = 0L;
 
     // @OneToOne(mappedBy = "wallet") : This relationship is implemented by wallet
     // mappedBy is used for those who do not have a relationship

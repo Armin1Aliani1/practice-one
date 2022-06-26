@@ -1,6 +1,7 @@
 package com.jpaAndHibernateTutorial;
 
 import com.jpaAndHibernateTutorial.domain.User;
+import com.jpaAndHibernateTutorial.domain.Wallet;
 import com.jpaAndHibernateTutorial.util.ApplicationContext;
 
 import javax.persistence.EntityManager;
@@ -12,15 +13,7 @@ public class JpaApplication {
     public static void main(String[] args) {
 
         System.out.println(ApplicationContext.getUserRepository().findAll());
-//        User user = ApplicationContext.getUserRepository().findById(2L);
-        User user = new User();
-        user.setId(1L);
-        user.setFirstName("Armin");
-        user.setLastName("Aliani");
-        user.setUsername("ArminA");
-        user.setPassword("123456");
-        user.setActive(true);
-        ApplicationContext.getUserRepository().save(user);
+        insertUserWithWallet();
         System.out.println(ApplicationContext.getUserRepository().findAll());
 
 //        EntityManagerFactory entityManagerFactory = HibernateUtil.getEntityManagerFactory();
@@ -31,6 +24,19 @@ public class JpaApplication {
 
 //        doFirstExample(entityManager);
 
+    }
+
+    private static void insertUserWithWallet() {
+        //        User user = ApplicationContext.getUserRepository().findById(2L);
+        Wallet wallet = new Wallet();
+        wallet = ApplicationContext.getWalletRepository().save(wallet);
+        Wallet newW = new Wallet();
+        newW.setId(wallet.getId());
+        User user = new User();
+        user.setFirstName("Reza");
+        user.setActive(true);
+        user.setWallet(newW);
+        ApplicationContext.getUserRepository().save(user);
     }
 
     private static void doFirstExample(EntityManager entityManager) {
