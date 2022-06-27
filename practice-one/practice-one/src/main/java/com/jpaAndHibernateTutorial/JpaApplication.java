@@ -30,13 +30,14 @@ public class JpaApplication {
         //        User user = ApplicationContext.getUserRepository().findById(2L);
         Wallet wallet = new Wallet();
         wallet = ApplicationContext.getWalletRepository().save(wallet);
-        Wallet newW = new Wallet();
-        newW.setId(wallet.getId());
+        /*Wallet newW = new Wallet();
+        newW.setId(wallet.getId());*/
         User user = new User();
-        user.setFirstName("Reza");
+        user.setFirstName("Alireza");
         user.setActive(true);
-        user.setWallet(newW);
-        ApplicationContext.getUserRepository().save(user);
+        user.setWallet(wallet);
+        throw new RuntimeException();
+//        ApplicationContext.getUserRepository().save(user);
     }
 
     private static void doFirstExample(EntityManager entityManager) {
