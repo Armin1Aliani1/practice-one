@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1619e90-80d5-483e-8892-41a54f5d2cf5" name="Changes" comment="edit ApplicationContext and JpaApplication and UserRepositoryImpl and UserServiceImpl and WalletServiceImpl">
+    <list default="true" id="a1619e90-80d5-483e-8892-41a54f5d2cf5" name="Changes" comment="edit workspace.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/JpaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/JpaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/domain/Wallet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/domain/Wallet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/service/impl/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -305,7 +309,13 @@
       <option name="presentableId" value="LOCAL‎۰۰۰۳۲" />
       <updated>1656397516505</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL‎۰۰۰۳۳" summary="edit workspace.xml">
+      <created>1656399073891</created>
+      <option name="number" value="LOCAL‎۰۰۰۳۳" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۳۳" />
+      <updated>1656399073891</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,7 +342,6 @@
     <MESSAGE value="add files Address and City and HibernateUtil and JpaApplication and Tag and User and Wallet" />
     <MESSAGE value="edit files" />
     <MESSAGE value="add BaseEntity" />
-    <MESSAGE value="edit workspace.xml" />
     <MESSAGE value="edit BaseEntity" />
     <MESSAGE value="edit User" />
     <MESSAGE value="edit BaseEntity and User and Wallet" />
@@ -350,7 +359,8 @@
     <MESSAGE value="add interface WalletService and class WalletServiceImpl" />
     <MESSAGE value="edit ApplicationContext" />
     <MESSAGE value="edit ApplicationContext and JpaApplication and UserRepositoryImpl and UserServiceImpl and WalletServiceImpl" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit ApplicationContext and JpaApplication and UserRepositoryImpl and UserServiceImpl and WalletServiceImpl" />
+    <MESSAGE value="edit workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit workspace.xml" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

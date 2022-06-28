@@ -2,7 +2,6 @@ package com.jpaAndHibernateTutorial.service.impl;
 
 import com.jpaAndHibernateTutorial.base.service.impl.BaseServiceImpl;
 import com.jpaAndHibernateTutorial.domain.User;
-import com.jpaAndHibernateTutorial.domain.Wallet;
 import com.jpaAndHibernateTutorial.repository.UserRepository;
 import com.jpaAndHibernateTutorial.service.UserService;
 import com.jpaAndHibernateTutorial.service.WalletService;
@@ -21,8 +20,8 @@ public class UserServiceImpl extends BaseServiceImpl<User, Long, UserRepository>
         if (user.getId() == null) {
             try {
                 repository.beginTransaction();
-                Wallet wallet = walletService.save(new Wallet());
-                user.setWallet(wallet);
+                /*Wallet wallet = walletService.save(new Wallet());
+                user.setWallet(wallet);*/
                 user = repository.save(user);
 //                user = super.save(user);
                 repository.commitTransaction();
