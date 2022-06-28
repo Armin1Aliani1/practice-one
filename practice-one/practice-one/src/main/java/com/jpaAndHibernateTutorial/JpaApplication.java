@@ -13,7 +13,8 @@ public class JpaApplication {
     public static void main(String[] args) {
 
         System.out.println(ApplicationContext.getUserRepository().findAll());
-        insertUserWithWallet();
+        insertUserWithUserService();
+        //        insertUserWithWallet();
         System.out.println(ApplicationContext.getUserRepository().findAll());
 
 //        EntityManagerFactory entityManagerFactory = HibernateUtil.getEntityManagerFactory();
@@ -24,6 +25,10 @@ public class JpaApplication {
 
 //        doFirstExample(entityManager);
 
+    }
+
+    private static void insertUserWithUserService() {
+        ApplicationContext.getUserService().save(new User("Sadegh", "Abdi", "SadeghA", "123456", true));
     }
 
     private static void insertUserWithWallet() {

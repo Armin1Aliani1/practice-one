@@ -39,7 +39,7 @@ public class ApplicationContext {
 
     public static UserService getUserService() {
         if (userService == null) {
-            userService = new UserServiceImpl(getUserRepository());
+            userService = new UserServiceImpl(getUserRepository(), getWalletService());
         }
         return userService;
     }

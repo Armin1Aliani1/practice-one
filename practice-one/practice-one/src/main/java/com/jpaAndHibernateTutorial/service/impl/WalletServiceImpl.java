@@ -11,4 +11,12 @@ public class WalletServiceImpl extends BaseServiceImpl<Wallet, Long, WalletRepos
         super(repository);
     }
 
+    @Override
+    public Wallet save(Wallet wallet) {
+        if (wallet.getId() == null) {
+            return repository.save(wallet);
+        } else {
+            return super.save(wallet);
+        }
+    }
 }

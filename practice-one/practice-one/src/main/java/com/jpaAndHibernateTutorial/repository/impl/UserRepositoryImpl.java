@@ -13,6 +13,11 @@ public class UserRepositoryImpl extends BaseRepositoryImpl<User, Long> implement
     }
 
     @Override
+    public User save(User user) {
+        throw new RuntimeException();
+    }
+
+    @Override
     public Class<User> getEntityClass() {
         return User.class;
     }
