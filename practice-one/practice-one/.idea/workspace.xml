@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1619e90-80d5-483e-8892-41a54f5d2cf5" name="Changes" comment="edit UserRepositoryImpl and BaseRepositoryImpl">
+    <list default="true" id="a1619e90-80d5-483e-8892-41a54f5d2cf5" name="Changes" comment="edit ApplicationContext and JpaApplication and UserRepositoryImpl and UserServiceImpl and WalletServiceImpl">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/JpaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/JpaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/base/repository/impl/BaseRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/base/repository/impl/BaseRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,22 +48,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Parmin/IdeaProjects/projectsOnGit/codeS25OrTwentyFiveJM/practice-one/practice-one/src/main/java",
-    "project.structure.last.edited": "Facets",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Parmin/IdeaProjects/projectsOnGit/codeS25OrTwentyFiveJM/practice-one/practice-one/src/main/java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
@@ -77,6 +74,13 @@
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.jpaAndHibernateTutorial.base.repository" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jpaAndHibernateTutorial.service.impl" />
+      <recent name="com.jpaAndHibernateTutorial.service" />
+      <recent name="com.jpaAndHibernateTutorial.base.service" />
+      <recent name="com.jpaAndHibernateTutorial.repository.impl" />
+      <recent name="com.jpaAndHibernateTutorial.repository" />
     </key>
   </component>
   <component name="RunManager">
@@ -247,7 +251,61 @@
       <option name="presentableId" value="LOCAL‎۰۰۰۲۳" />
       <updated>1656189145822</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL‎۰۰۰۲۴" summary="add ApplicationContext">
+      <created>1656249912664</created>
+      <option name="number" value="LOCAL‎۰۰۰۲۴" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۲۴" />
+      <updated>1656249912664</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۲۵" summary="edit WalletRepository and WalletRepositoryImpl">
+      <created>1656249967926</created>
+      <option name="number" value="LOCAL‎۰۰۰۲۵" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۲۵" />
+      <updated>1656249967926</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۲۶" summary="edit Wallet and JpaApplication">
+      <created>1656253393010</created>
+      <option name="number" value="LOCAL‎۰۰۰۲۶" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۲۶" />
+      <updated>1656253393010</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۲۷" summary="add interface BaseService and class BaseServiceImpl">
+      <created>1656264775602</created>
+      <option name="number" value="LOCAL‎۰۰۰۲۷" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۲۷" />
+      <updated>1656264775602</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۲۸" summary="edit JpaApplication">
+      <created>1656304833465</created>
+      <option name="number" value="LOCAL‎۰۰۰۲۸" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۲۸" />
+      <updated>1656304833465</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۲۹" summary="add interface UserService and class UserServiceImpl">
+      <created>1656304867701</created>
+      <option name="number" value="LOCAL‎۰۰۰۲۹" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۲۹" />
+      <updated>1656304867701</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۳۰" summary="add interface WalletService and class WalletServiceImpl">
+      <created>1656331727838</created>
+      <option name="number" value="LOCAL‎۰۰۰۳۰" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۳۰" />
+      <updated>1656331727838</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۳۱" summary="edit ApplicationContext">
+      <created>1656333756894</created>
+      <option name="number" value="LOCAL‎۰۰۰۳۱" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۳۱" />
+      <updated>1656333756894</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۳۲" summary="edit ApplicationContext and JpaApplication and UserRepositoryImpl and UserServiceImpl and WalletServiceImpl">
+      <created>1656397516504</created>
+      <option name="number" value="LOCAL‎۰۰۰۳۲" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۳۲" />
+      <updated>1656397516505</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,8 +325,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="add all files" />
-    <MESSAGE value="add gitignore" />
     <MESSAGE value="edit pom" />
     <MESSAGE value="add all file" />
     <MESSAGE value="add persistence.xml" />
@@ -280,14 +336,21 @@
     <MESSAGE value="edit BaseEntity" />
     <MESSAGE value="edit User" />
     <MESSAGE value="edit BaseEntity and User and Wallet" />
-    <MESSAGE value="edit JpaApplication" />
     <MESSAGE value="add BaseRepository" />
     <MESSAGE value="add BaseRepositoryImpl" />
     <MESSAGE value="add interface UserRepository" />
     <MESSAGE value="add class UserRepositoryImpl" />
-    <MESSAGE value="add ApplicationContext" />
     <MESSAGE value="edit UserRepositoryImpl and BaseRepositoryImpl" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit UserRepositoryImpl and BaseRepositoryImpl" />
+    <MESSAGE value="add ApplicationContext" />
+    <MESSAGE value="edit WalletRepository and WalletRepositoryImpl" />
+    <MESSAGE value="edit Wallet and JpaApplication" />
+    <MESSAGE value="add interface BaseService and class BaseServiceImpl" />
+    <MESSAGE value="edit JpaApplication" />
+    <MESSAGE value="add interface UserService and class UserServiceImpl" />
+    <MESSAGE value="add interface WalletService and class WalletServiceImpl" />
+    <MESSAGE value="edit ApplicationContext" />
+    <MESSAGE value="edit ApplicationContext and JpaApplication and UserRepositoryImpl and UserServiceImpl and WalletServiceImpl" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit ApplicationContext and JpaApplication and UserRepositoryImpl and UserServiceImpl and WalletServiceImpl" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
