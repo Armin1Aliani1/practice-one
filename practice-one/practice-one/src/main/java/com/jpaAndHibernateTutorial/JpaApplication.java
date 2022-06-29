@@ -1,8 +1,8 @@
 package com.jpaAndHibernateTutorial;
 
-import com.jpaAndHibernateTutorial.domain.User;
-import com.jpaAndHibernateTutorial.domain.Wallet;
+import com.jpaAndHibernateTutorial.domain.*;
 import com.jpaAndHibernateTutorial.util.ApplicationContext;
+import com.jpaAndHibernateTutorial.util.HibernateUtil;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityTransaction;
@@ -12,10 +12,39 @@ import java.util.List;
 public class JpaApplication {
     public static void main(String[] args) {
 
-        System.out.println(ApplicationContext.getUserRepository().findAll());
-        insertUserWithUserService();
+        EntityManager entityManager = HibernateUtil.getEntityManagerFactory().createEntityManager();
+
+        entityManager.getTransaction().begin();
+
+        Radio radio = new Radio();
+        radio.setFrequency(10);
+        radio.setPower(110L);
+        radio.setPrice(11000L);
+        entityManager.persist(radio);
+
+        Tv tv = new Tv();
+        tv.setInch(100);
+        tv.setPower(11000L);
+        tv.setPrice(11000000L);
+        entityManager.persist(tv);
+
+        Cart cart = new Cart();
+        cart.getProductList().add(radio);
+        cart.getProductList().add(tv);
+        entityManager.persist(cart);
+
+        entityManager.getTransaction().commit();
+
+        System.out.println(entityManager.createQuery("select c from Cart c", Cart.class).getResultList());
+
+//        System.out.println(entityManager.createQuery("select t from Tv t", Tv.class).getResultList());
+
+//        System.out.println(entityManager.createQuery("select r from Radio r", Radio.class).getResultList());
+
+//        System.out.println(ApplicationContext.getUserRepository().findAll());
+//        insertUserWithUserService();
 //        insertUserWithWallet();
-        System.out.println(ApplicationContext.getUserRepository().findAll());
+//        System.out.println(ApplicationContext.getUserRepository().findAll());
 
 //        EntityManagerFactory entityManagerFactory = HibernateUtil.getEntityManagerFactory();
 

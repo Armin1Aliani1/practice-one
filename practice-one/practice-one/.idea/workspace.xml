@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1619e90-80d5-483e-8892-41a54f5d2cf5" name="Changes" comment="edit JpaApplication and User and UserServiceImpl and Wallet and workspace.xml">
+    <list default="true" id="a1619e90-80d5-483e-8892-41a54f5d2cf5" name="Changes" comment="edit JpaApplication and workspace.xml">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/domain/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/domain/Electronic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/domain/Radio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/domain/Tv.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/JpaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/JpaApplication.java" afterDir="false" />
     </list>
@@ -49,22 +54,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Parmin/IdeaProjects/projectsOnGit/codeS25OrTwentyFiveJM/practice-one/practice-one/src/main/java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Parmin/IdeaProjects/projectsOnGit/codeS25OrTwentyFiveJM/practice-one/practice-one/src/main/java",
+    "project.structure.last.edited": "Facets",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
@@ -77,11 +83,11 @@
       <recent name="com.jpaAndHibernateTutorial.base.repository" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jpaAndHibernateTutorial.domain" />
       <recent name="com.jpaAndHibernateTutorial.service.impl" />
       <recent name="com.jpaAndHibernateTutorial.service" />
       <recent name="com.jpaAndHibernateTutorial.base.service" />
       <recent name="com.jpaAndHibernateTutorial.repository.impl" />
-      <recent name="com.jpaAndHibernateTutorial.repository" />
     </key>
   </component>
   <component name="RunManager">
@@ -318,7 +324,13 @@
       <option name="presentableId" value="LOCAL‎۰۰۰۳۴" />
       <updated>1656403462659</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL‎۰۰۰۳۵" summary="edit JpaApplication and workspace.xml">
+      <created>1656425001543</created>
+      <option name="number" value="LOCAL‎۰۰۰۳۵" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۳۵" />
+      <updated>1656425001543</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,7 +350,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="add all file" />
     <MESSAGE value="add persistence.xml" />
     <MESSAGE value="edite file" />
     <MESSAGE value="add files Address and City and HibernateUtil and JpaApplication and Tag and User and Wallet" />
@@ -363,7 +374,8 @@
     <MESSAGE value="edit ApplicationContext and JpaApplication and UserRepositoryImpl and UserServiceImpl and WalletServiceImpl" />
     <MESSAGE value="edit workspace.xml" />
     <MESSAGE value="edit JpaApplication and User and UserServiceImpl and Wallet and workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit JpaApplication and User and UserServiceImpl and Wallet and workspace.xml" />
+    <MESSAGE value="edit JpaApplication and workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit JpaApplication and workspace.xml" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
