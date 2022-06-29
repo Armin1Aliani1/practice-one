@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1619e90-80d5-483e-8892-41a54f5d2cf5" name="Changes" comment="add JpaApplication and workspace.xml">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/service/dto/UserBriefProjection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/repository/impl/UserRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/repository/impl/UserRepositoryImpl.java" afterDir="false" />
+    <list default="true" id="a1619e90-80d5-483e-8892-41a54f5d2cf5" name="Changes" comment="edit User">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/JpaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/JpaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/domain/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/domain/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/domain/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/domain/Wallet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/domain/Wallet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -347,7 +350,31 @@
       <option name="presentableId" value="LOCAL‎۰۰۰۳۸" />
       <updated>1656510005071</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL‎۰۰۰۳۹" summary="add JpaApplication and workspace.xml">
+      <created>1656510105578</created>
+      <option name="number" value="LOCAL‎۰۰۰۳۹" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۳۹" />
+      <updated>1656510105578</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۴۰" summary="edit interface UserRepository and class UserRepositoryImpl">
+      <created>1656510180772</created>
+      <option name="number" value="LOCAL‎۰۰۰۴۰" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۴۰" />
+      <updated>1656510180772</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۴۱" summary="add UserBriefProjection">
+      <created>1656510203762</created>
+      <option name="number" value="LOCAL‎۰۰۰۴۱" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۴۱" />
+      <updated>1656510203762</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۴۲" summary="edit User">
+      <created>1656510446330</created>
+      <option name="number" value="LOCAL‎۰۰۰۴۲" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۴۲" />
+      <updated>1656510446330</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,11 +394,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="add files Address and City and HibernateUtil and JpaApplication and Tag and User and Wallet" />
-    <MESSAGE value="edit files" />
     <MESSAGE value="add BaseEntity" />
     <MESSAGE value="edit BaseEntity" />
-    <MESSAGE value="edit User" />
     <MESSAGE value="edit BaseEntity and User and Wallet" />
     <MESSAGE value="add BaseRepository" />
     <MESSAGE value="add BaseRepositoryImpl" />
@@ -392,7 +416,10 @@
     <MESSAGE value="edit JpaApplication and workspace.xml" />
     <MESSAGE value="add Cart and Electronic and Product and Radio and Tv" />
     <MESSAGE value="add JpaApplication and workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="add JpaApplication and workspace.xml" />
+    <MESSAGE value="edit interface UserRepository and class UserRepositoryImpl" />
+    <MESSAGE value="add UserBriefProjection" />
+    <MESSAGE value="edit User" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit User" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

@@ -12,12 +12,32 @@ import java.util.List;
 public class JpaApplication {
     public static void main(String[] args) {
 
+        EntityManager entityManager = HibernateUtil.getEntityManagerFactory().createEntityManager();
+
+        List<Cart> cart = entityManager.createQuery("select c from Cart c", Cart.class).getResultList();
+
+        System.out.println("cart is here");
+
+        System.out.println(cart);
+
+        //        addProductsToCart();
+
 //        insertUserWithUserService();
 
-        ApplicationContext.getUserRepository().getUserBriefProjection().forEach(data -> System.out.println(data));
+//        ApplicationContext.getUserRepository().getUserBriefProjection().forEach(data -> System.out.println(data));
 
 //        System.out.println(ApplicationContext.getUserRepository().getUserBriefProjection());
 
+    }
+
+    private static void showFetchTypeExmaple() {
+        List<User> all = ApplicationContext.getUserService().findAll();
+
+        System.out.println("all is here");
+
+        all.forEach(data -> System.out.println(data));
+
+        System.out.println("done");
     }
 
     private static void addProductsToCart() {
