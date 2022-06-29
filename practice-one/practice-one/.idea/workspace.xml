@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1619e90-80d5-483e-8892-41a54f5d2cf5" name="Changes" comment="edit JpaApplication and workspace.xml">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/domain/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/domain/Electronic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/domain/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/domain/Radio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/domain/Tv.java" afterDir="false" />
+    <list default="true" id="a1619e90-80d5-483e-8892-41a54f5d2cf5" name="Changes" comment="add Cart and Electronic and Product and Radio and Tv">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/service/dto/UserBriefProjection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/JpaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/JpaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/repository/impl/UserRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/repository/impl/UserRepositoryImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +73,9 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.jpaAndHibernateTutorial.service.dto" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Parmin\IdeaProjects\projectsOnGit\codeS25OrTwentyFiveJM\practice-one\practice-one\src\main\java" />
       <recent name="C:\Users\Parmin\IdeaProjects\projectsOnGit\codeS25OrTwentyFiveJM\practice-one\practice-one" />
@@ -330,7 +331,19 @@
       <option name="presentableId" value="LOCAL‎۰۰۰۳۵" />
       <updated>1656425001543</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL‎۰۰۰۳۶" summary="edit JpaApplication and workspace.xml">
+      <created>1656504822842</created>
+      <option name="number" value="LOCAL‎۰۰۰۳۶" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۳۶" />
+      <updated>1656504822863</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۳۷" summary="add Cart and Electronic and Product and Radio and Tv">
+      <created>1656504901542</created>
+      <option name="number" value="LOCAL‎۰۰۰۳۷" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۳۷" />
+      <updated>1656504901542</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,7 +363,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="add persistence.xml" />
     <MESSAGE value="edite file" />
     <MESSAGE value="add files Address and City and HibernateUtil and JpaApplication and Tag and User and Wallet" />
     <MESSAGE value="edit files" />
@@ -375,7 +387,8 @@
     <MESSAGE value="edit workspace.xml" />
     <MESSAGE value="edit JpaApplication and User and UserServiceImpl and Wallet and workspace.xml" />
     <MESSAGE value="edit JpaApplication and workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit JpaApplication and workspace.xml" />
+    <MESSAGE value="add Cart and Electronic and Product and Radio and Tv" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Cart and Electronic and Product and Radio and Tv" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

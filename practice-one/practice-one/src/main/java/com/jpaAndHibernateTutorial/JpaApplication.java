@@ -12,6 +12,15 @@ import java.util.List;
 public class JpaApplication {
     public static void main(String[] args) {
 
+//        insertUserWithUserService();
+
+        ApplicationContext.getUserRepository().getUserBriefProjection().forEach(data -> System.out.println(data));
+
+//        System.out.println(ApplicationContext.getUserRepository().getUserBriefProjection());
+
+    }
+
+    private static void addProductsToCart() {
         EntityManager entityManager = HibernateUtil.getEntityManagerFactory().createEntityManager();
 
         entityManager.getTransaction().begin();
@@ -53,7 +62,6 @@ public class JpaApplication {
         // Build and get entityManager with entityManagerFactory
 
 //        doFirstExample(entityManager);
-
     }
 
     private static void insertUserWithUserService() {
