@@ -1,11 +1,10 @@
 package com.jpaAndHibernateTutorial.domain;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.ManyToMany;
+import javax.persistence.*;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 @Entity
 public class Cart {
@@ -15,8 +14,11 @@ public class Cart {
 
     private Long userId;
 
-    @ManyToMany
+    @ManyToMany(fetch = FetchType.EAGER)
     private List<Product> productList = new ArrayList<>();
+
+    @OneToMany
+    private Set<User> users = new HashSet<>();
 
     public Long getId() {
         return id;
@@ -48,6 +50,7 @@ public class Cart {
                 "id=" + id +
                 ", userId=" + userId +
                 ", productList=" + productList +
+                ", users=" + users +
                 '}';
     }
 }

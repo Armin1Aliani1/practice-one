@@ -3,12 +3,9 @@ package com.jpaAndHibernateTutorial.domain;
 import com.jpaAndHibernateTutorial.base.domain.BaseEntity;
 
 import javax.persistence.Entity;
-import javax.persistence.Inheritance;
-import javax.persistence.InheritanceType;
 
 //@MappedSuperclass
 @Entity
-@Inheritance(strategy = InheritanceType.JOINED)
 public abstract class Product extends BaseEntity<Long> {
     private Long price;
 

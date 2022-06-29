@@ -2,10 +2,7 @@ package com.jpaAndHibernateTutorial.domain;
 
 import com.jpaAndHibernateTutorial.base.domain.BaseEntity;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.OneToOne;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 // Annotation (@Entity) is used to build the table in the database
  /*We use annotation(@Table) to define the name of the new table we want to create for the first time,
@@ -40,7 +37,7 @@ public class User extends BaseEntity<Long> {
 
     // @OneToOne : Annotate the relationship OneToOne
     // One user have one wallet
-    @OneToOne
+    @OneToOne(fetch = FetchType.LAZY)
     private Wallet wallet;
 
     /*@OneToOne
@@ -125,7 +122,8 @@ public class User extends BaseEntity<Long> {
                 ", lastName='" + lastName + '\'' +
                 ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
-                ", isActive=" + isActive +
+                ", isActive=" + isActive + '\'' +
+                ", wallet=" + wallet +
                 '}';
     }
 }

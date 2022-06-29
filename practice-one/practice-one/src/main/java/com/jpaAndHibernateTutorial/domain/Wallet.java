@@ -18,7 +18,7 @@ public class Wallet extends BaseEntity<Long> {
     // mappedBy is used for those who do not have a relationship
     // This relationship was once mappedBy wallet
 
-    @OneToOne(mappedBy = "optionalOneToOneWallet")
+    @OneToOne(mappedBy = "wallet")
     private User user;
     // @OneToOne(mappedBy = "wallet") : This relationship is implemented by wallet
 
@@ -55,21 +55,18 @@ public class Wallet extends BaseEntity<Long> {
         this.creditAmount = creditAmount;
     }
 
-    /*public User getUser() {
+    public User getUser() {
         return user;
     }
 
     public void setUser(User user) {
         this.user = user;
-    }*/
+    }
 
-    /*@Override
+    @Override
     public String toString() {
         return "Wallet{" +
                 "totalAmount=" + totalAmount +
-                ", cashAmount=" + cashAmount +
-                ", creditAmount=" + creditAmount +
-                ", user=" + user +
                 '}';
-    }*/
+    }
 }
