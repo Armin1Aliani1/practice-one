@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1619e90-80d5-483e-8892-41a54f5d2cf5" name="Changes" comment="add Cart and Electronic and Product and Radio and Tv">
+    <list default="true" id="a1619e90-80d5-483e-8892-41a54f5d2cf5" name="Changes" comment="add JpaApplication and workspace.xml">
       <change afterPath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/service/dto/UserBriefProjection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/JpaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/JpaApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/repository/impl/UserRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpaAndHibernateTutorial/repository/impl/UserRepositoryImpl.java" afterDir="false" />
     </list>
@@ -343,7 +341,13 @@
       <option name="presentableId" value="LOCAL‎۰۰۰۳۷" />
       <updated>1656504901542</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL‎۰۰۰۳۸" summary="add JpaApplication and workspace.xml">
+      <created>1656510005071</created>
+      <option name="number" value="LOCAL‎۰۰۰۳۸" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۳۸" />
+      <updated>1656510005071</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,7 +367,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="edite file" />
     <MESSAGE value="add files Address and City and HibernateUtil and JpaApplication and Tag and User and Wallet" />
     <MESSAGE value="edit files" />
     <MESSAGE value="add BaseEntity" />
@@ -388,7 +391,8 @@
     <MESSAGE value="edit JpaApplication and User and UserServiceImpl and Wallet and workspace.xml" />
     <MESSAGE value="edit JpaApplication and workspace.xml" />
     <MESSAGE value="add Cart and Electronic and Product and Radio and Tv" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Cart and Electronic and Product and Radio and Tv" />
+    <MESSAGE value="add JpaApplication and workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="add JpaApplication and workspace.xml" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
